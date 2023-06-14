@@ -1,0 +1,6 @@
+1.git init
+2.git add.
+3.git commit -m "initial commit	"
+4.git remote add origin https://github.com/MuhammadFahry212/restapi-springboot.git
+5.git remote set-url origin https://MuhammadFahry212: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@github.com/MuhammadFahry212/restapi-springboot.git
+6.git push --set-upstrean origin master

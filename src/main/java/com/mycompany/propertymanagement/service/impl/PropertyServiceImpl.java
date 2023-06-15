@@ -31,10 +31,8 @@ public class PropertyServiceImpl implements PropertyService {
 
     @Override
     public List<PropertyDTO> getAllProperties() {
-
         List<PropertyEntity> listOfProps = (List<PropertyEntity>)propertyRepository.findAll();
         List<PropertyDTO> propList = new ArrayList<>();
-
         for(PropertyEntity pe : listOfProps){
             PropertyDTO dto = propertyConverter.convertEntityToDTO(pe);
             propList.add(dto);

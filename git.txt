@@ -1,4 +1,4 @@
-
+==============================
 First Time Git & Git Setup
 1.git init
 2.git add.
@@ -6,7 +6,7 @@ First Time Git & Git Setup
 4.git remote add origin https://github.com/MuhammadFahry212/restapi-springboot.git
 5.git remote set-url origin https://MuhammadFahry212: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@github.com/MuhammadFahry212/restapi-springboot.git
 6.git push --set-upstrean origin master	
-
+====================
 Next Time Onward
 1.git pull
 2.git add.

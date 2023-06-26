@@ -29,7 +29,7 @@ public class UserServiceImpl implements UserService {
         if(optUe.isPresent()){
             List<ErrorModel> errorModelList = new ArrayList<>();
             ErrorModel errorModel = new ErrorModel();
-            errorModel.setCode("EMAIL_ALREADY_EXIST");
+            errorModel.setCode("EmailL_Already_Exist");
             errorModel.setMessage("The Email With Which You Are Trying To Register Already Exist!");
             errorModelList.add(errorModel);
             throw new BusinessException(errorModelList);

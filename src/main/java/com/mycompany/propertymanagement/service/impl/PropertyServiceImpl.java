@@ -28,7 +28,6 @@ public class PropertyServiceImpl implements PropertyService {
         propertyDTO=propertyConverter.convertEntityToDTO(pe);
         return propertyDTO;
     }
-
     @Override
     public List<PropertyDTO> getAllProperties() {
         List<PropertyEntity> listOfProps = (List<PropertyEntity>)propertyRepository.findAll();
